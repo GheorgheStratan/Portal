@@ -3,6 +3,11 @@ package game;
 /*La classe Coordinate serve tutte quelle volte nel quale si vuole immagazzinare
  * rapidamente le coordinate di una immagine ecc...*/
 public class Coordinate {
+	@Override
+	public String toString() {
+		return "Coordinate [x=" + x + ", y=" + y + "]";
+	}
+
 	private int x,y;
 
 	public Coordinate(int x, int y) {

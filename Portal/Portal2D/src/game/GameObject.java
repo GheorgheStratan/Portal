@@ -1,12 +1,14 @@
+package game;
+
 
 public abstract class GameObject {
 	
 	protected ID id;
 	protected int x,y;
 	protected int SpeedX,SpeedY;
-	
-	public GameObject(ID id, int x, int y) {
-		this.id = id;
+
+	public GameObject(int x, int y) {
+		//this.id = id;
 		this.x = x;
 		this.y = y;
 	}
